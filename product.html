@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | ShopNest</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            ShopNest
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="products.html">Products</a></li>
+
+            <li><a href="wishlist.html">Wishlist</a></li>
+
+            <li><a href="cart.html">Cart</a></li>
+
+            <li><a href="profile.html">Profile</a></li>
+
+        </ul>
+
+        <div class="nav-buttons">
+
+            <button id="themeBtn">🌙</button>
+
+            <button class="menu-btn">☰</button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- Search Section -->
+
+<section class="product-section">
+
+    <h2>Explore Products</h2>
+
+    <div class="filters">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Products..."
+        >
+
+        <select id="categoryFilter">
+
+            <option value="all">All Categories</option>
+
+            <option value="electronics">Electronics</option>
+
+            <option value="fashion">Fashion</option>
+
+            <option value="accessories">Accessories</option>
+
+        </select>
+
+        <select id="sortSelect">
+
+            <option value="default">Sort By</option>
+
+            <option value="low">Price Low to High</option>
+
+            <option value="high">Price High to Low</option>
+
+            <option value="rating">Highest Rating</option>
+
+        </select>
+
+    </div>
+
+</section>
+
+<!-- Product Grid -->
+
+<section class="product-section">
+
+<div class="product-container" id="productContainer">
+
+<!-- Product 1 -->
+
+<div
+class="product-card"
+data-category="electronics"
+data-price="59999"
+data-rating="5">
+
+<img src="images/laptop.jpg">
+
+<h3>Gaming Laptop</h3>
+
+<p>₹59,999</p>
+
+<div class="rating">⭐⭐⭐⭐⭐</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+<!-- Product 2 -->
+
+<div
+class="product-card"
+data-category="electronics"
+data-price="24999"
+data-rating="4">
+
+<img src="images/phone.jpg">
+
+<h3>Smart Phone</h3>
+
+<p>₹24,999</p>
+
+<div class="rating">⭐⭐⭐⭐☆</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+<!-- Product 3 -->
+
+<div
+class="product-card"
+data-category="accessories"
+data-price="5499"
+data-rating="4">
+
+<img src="images/watch.jpg">
+
+<h3>Smart Watch</h3>
+
+<p>₹5,499</p>
+
+<div class="rating">⭐⭐⭐⭐☆</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+<!-- Product 4 -->
+
+<div
+class="product-card"
+data-category="electronics"
+data-price="2999"
+data-rating="5">
+
+<img src="images/headphones.jpg">
+
+<h3>Wireless Headphones</h3>
+
+<p>₹2,999</p>
+
+<div class="rating">⭐⭐⭐⭐⭐</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+<!-- Product 5 -->
+
+<div
+class="product-card"
+data-category="fashion"
+data-price="2499"
+data-rating="4">
+
+<img src="images/shoes.jpg">
+
+<h3>Running Shoes</h3>
+
+<p>₹2,499</p>
+
+<div class="rating">⭐⭐⭐⭐☆</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+<!-- Product 6 -->
+
+<div
+class="product-card"
+data-category="accessories"
+data-price="1499"
+data-rating="4">
+
+<img src="images/watch.jpg">
+
+<h3>Travel Backpack</h3>
+
+<p>₹1,499</p>
+
+<div class="rating">⭐⭐⭐⭐☆</div>
+
+<button>Add to Cart</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="js/script.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/filter.js"></script>
+
+</body>
+
+</html>

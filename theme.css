@@ -1,0 +1,183 @@
+/* =====================================
+   THEME.CSS
+   Light & Dark Mode
+===================================== */
+
+/* Smooth Transition */
+
+body,
+header,
+nav,
+section,
+footer,
+.product-card,
+.category-card,
+.service-card,
+.offer-box,
+.newsletter,
+button,
+input{
+
+    transition:0.4s ease;
+
+}
+
+/* ==========================
+   DARK MODE
+========================== */
+
+body.dark{
+
+    background:#0f172a;
+    color:#ffffff;
+
+}
+
+/* Navbar */
+
+body.dark header{
+
+    background:#111827;
+
+}
+
+body.dark .logo{
+
+    color:#60a5fa;
+
+}
+
+body.dark .nav-links a{
+
+    color:#ffffff;
+
+}
+
+body.dark .nav-links a:hover{
+
+    color:#60a5fa;
+
+}
+
+/* Hero */
+
+body.dark .hero-text h1{
+
+    color:#ffffff;
+
+}
+
+body.dark .hero-text p{
+
+    color:#d1d5db;
+
+}
+
+/* Cards */
+
+body.dark .product-card,
+body.dark .category-card,
+body.dark .service-card,
+body.dark .newsletter{
+
+    background:#1e293b;
+    color:#ffffff;
+
+}
+
+/* Product Price */
+
+body.dark .product-card p{
+
+    color:#60a5fa;
+
+}
+
+/* Buttons */
+
+body.dark button{
+
+    background:#3b82f6;
+    color:#ffffff;
+
+}
+
+body.dark button:hover{
+
+    background:#2563eb;
+
+}
+
+/* Offer Section */
+
+body.dark .offer-box{
+
+    background:linear-gradient(135deg,#1d4ed8,#312e81);
+
+}
+
+/* Footer */
+
+body.dark footer{
+
+    background:#020617;
+
+}
+
+/* Newsletter Input */
+
+body.dark input{
+
+    background:#334155;
+    color:#ffffff;
+    border:1px solid #475569;
+
+}
+
+body.dark input::placeholder{
+
+    color:#cbd5e1;
+
+}
+
+/* Scrollbar */
+
+body.dark::-webkit-scrollbar-track{
+
+    background:#1e293b;
+
+}
+
+body.dark::-webkit-scrollbar-thumb{
+
+    background:#3b82f6;
+
+}
+
+/* ==========================
+   LIGHT MODE
+========================== */
+
+body.light{
+
+    background:#f5f7fb;
+    color:#222222;
+
+}
+
+/* Theme Button */
+
+#themeBtn{
+
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+/* Optional Glow */
+
+#themeBtn:hover{
+
+    box-shadow:0 0 15px rgba(59,130,246,0.5);
+
+}
